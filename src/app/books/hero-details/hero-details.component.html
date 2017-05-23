@@ -1,0 +1,23 @@
+<div class="character">
+  <div class="container">
+    <div class="heroImg">
+      <img src="{{char?.view.bg}}" width="80px" height="80px">
+    </div>
+    <div class="heroDesc">
+      <div class="name hov pad">Name: {{char?.name}}</div>
+      <div class="hov pad">Title: {{char?.titles[0]}}</div>
+      <div class="hov pad">Born: {{char?.born}}</div>
+      <div class="hov pad">Gender: {{char?.gender}}</div>
+      <div class="hov pad">Culture: {{char?.culture}}</div>
+      <div class="hov pad">PlayedBy: {{char?.playedBy}}</div>
+      <button (click)="goToBooksList()">Go Back</button>
+      <div class="books">
+        <div class="item" *ngFor="let view of char?.viewBook" >
+          <div class="hov bookOnly" (click)="onSelect(view)">
+            <img src="../../{{view.view}}" width="80px" height="80px">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

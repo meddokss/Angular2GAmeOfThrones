@@ -1,0 +1,109 @@
+
+.character{
+  width: 100%;
+  height: 670px;
+}
+
+.container{
+  position: relative;
+  width: 80%;
+  /*margin: 0 120px;*/
+  height: auto;
+  display: -webkit-inline-flex;
+  display: -moz-inline-flex;
+  display: -ms-inline-flex;
+  display: -o-inline-flex;
+  display: inline-flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+}
+.heroImg{
+  margin-left: 5px;
+}
+
+.heroImg img{
+  position: relative;
+  width: 1190px;
+  height: 677px;
+  z-index: 1;
+  border-radius: 0 0 20px 20px;
+}
+
+div {
+  color: white;
+}
+
+.heroDesc{
+
+  font-size: 20px;
+  width: 450px;
+  position: relative;
+  margin-left:100px;
+  z-index: 2;
+  top:-630px;
+}
+
+.heroDesc .pad {
+  padding: 5px;
+}
+
+.heroDesc .hov{
+  transition: all 0.5s;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.heroDesc .hov:hover{
+  background: rgba(21, 106, 240, 0.3);
+  box-shadow: 0 0 2px rgba(21, 106, 240, 0.6), 0 0 6px rgba(21, 106, 240, 0.6), 0 0 8px rgba(21, 106, 240, 0.6), 0 0 15px rgba(21, 106, 240, 0.6), 0 0 20px rgba(21, 106, 240, 0.6), 0 0 20px rgba(21, 106, 240, 0.6), 0 0 25px rgba(21, 106, 240, 0.6), 0 0 30px rgba(21, 106, 240, 0.6);
+}
+
+.books {
+  width: 150%;
+  height: auto;
+  margin-top:130px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items:flex-start;
+}
+
+.item{
+  margin-left: 15px;
+}
+
+.item:first-child{
+  margin-left: 0px;
+}
+.bookOnly img{
+  width: 120px;
+  height: auto;
+
+}
+
+
+button {
+  display: block;
+  border: none;
+  margin: 4px 0 10px 0;
+  margin-top: 40px;
+  border-radius: 3px 3px 3px 3px;
+  padding: 5px 15px;
+  background-color: #E03237;
+  color: white;
+  transition: all 0.5s;
+}
+
+button:hover{
+  background-color:rgba(21, 106, 240, 0.3);
+  /*padding: 10px 20px;*/
+  /*font-size:15px;*/
+  box-shadow: 0 0 2px rgba(21, 106, 240, 0.6), 0 0 6px rgba(21, 106, 240, 0.6), 0 0 8px rgba(21, 106, 240, 0.6), 0 0 15px rgba(21, 106, 240, 0.6), 0 0 20px rgba(21, 106, 240, 0.6), 0 0 20px rgba(21, 106, 240, 0.6), 0 0 25px rgba(21, 106, 240, 0.6), 0 0 30px rgba(21, 106, 240, 0.6);
+}
+

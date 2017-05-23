@@ -1,0 +1,14 @@
+<h2>Houses</h2>
+<ul class="phrases">
+	<li *ngFor="let house of houses"
+			(click)="onSelect(house)">
+		{{house.name}}
+	</li>
+</ul>
+<ul class="phrases">
+	<li *ngFor="let house of httpArray">
+		{{house.name}}
+	</li>
+	<button (click)="onClicked()">GET </button>
+</ul>
+

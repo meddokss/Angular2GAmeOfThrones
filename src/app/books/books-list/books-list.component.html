@@ -1,0 +1,9 @@
+
+<div class="books">
+  <div class="books-item">
+    <div class="book" *ngFor="let book of books" (click)="onSelect(book)"   >
+        <img src="{{book?.view.view}}" width="80px" height="80px">
+        <div>{{book?.name}}</div>
+    </div>
+  </div>
+</div>

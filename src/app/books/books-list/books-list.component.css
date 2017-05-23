@@ -1,0 +1,74 @@
+/*.phrases li {*/
+    /*cursor: pointer;*/
+    /*margin:2px;*/
+/*}*/
+/*.phrases li:hover {*/
+    /*background-color: lightcoral;*/
+/*}*/
+
+.books{
+  width: 70%;
+  margin: 0 auto;
+
+}
+.books-item{
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: -webkit-inline-flex;
+  display: -moz-inline-flex;
+  display: -ms-inline-flex;
+  display: -o-inline-flex;
+  display: inline-flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:center;
+}
+
+
+.book {
+  position: relative;
+  width: 150px;
+  /*height: 100px;*/
+  padding:30px 0 0 0;
+  font-size: 16px;
+  transition: all 0.5s ease;
+}
+
+.book:hover{
+  transform: translateY(-5px);
+}
+.book:active{
+
+  transform: translateY(3px);
+  box-shadow: 0 0 0 0 #47090a;
+}
+
+
+.book div{
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  width: 100px;
+  height: 45px;
+  overflow: hidden;
+}
+
+.book img {
+  width: 100%;
+  height: 100%;
+}
+
+.book img:hover{
+
+  -webkit-box-shadow: 0 1px 4px -1px white inset, 0 1px rgba(255, 255, 255, 0.6), 0 0 11px rgba(120, 200, 70, 0.7);
+  -moz-box-shadow: 0 1px 4px -1px white inset, 0 1px rgba(255, 255, 255, 0.6), 0 0 11px rgba(120, 200, 70, 0.7);
+  -ms-box-shadow: 0 1px 4px -1px white inset, 0 1px rgba(255, 255, 255, 0.6), 0 0 11px rgba(120, 200, 70, 0.7);
+  -o-box-shadow:  0 1px 4px -1px white inset, 0 1px rgba(255, 255, 255, 0.6), 0 0 11px rgba(120, 200, 70, 0.7);
+  box-shadow: 0 0 2px rgba(148, 0, 211, 0.8), 0 0 6px rgba(228, 132, 0, 0.8), 0 0 8px rgba(228, 132, 0, 0.8), 0 0 15px rgba(228, 132, 0,0.8), 0 0 20px rgba(228, 132, 0, 0.8), 0 0 20px rgba(228, 132, 0, 0.8), 0 0 25px rgba(228, 132, 0, 0.5), 0 0 30px rgba(228, 132, 0, 0.9);
+}
